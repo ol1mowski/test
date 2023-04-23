@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BEM task</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__text">
+            <h1>Slogan Duży</h1>
+            <h3>Slogan Mały</h3>
+        </div>
+        <button class="header__btn btn">Wejdz</button>
+    </header>
+    <main class="content">
+        <header class="content__header">
+            <div class="content__logo-company">
+                <img src="" alt="" class="content__logo">
+                <span class="content__company-name">Nazwa firmy</span>
+            </div>
+            <nav class="content__nav">
+                <span class="content__nav-text">File</span>
+                <span class="content__nav-text">Edit</span>
+                <span class="content__nav-text">View</span>
+                <span class="content__nav-text">Help</span>
+            </nav>
+            <div class="content__search-field">
+                <input class="content__searchbar" type="search" name="search">
+                <button class="content__btn-search btn">szukaj</button>
+            </div>
+        </header>
+        <div class="content__article">
+            <h1>Tytul artykułu</h1>
+            <p class="content__article-date"></p>
+            <span class="content__article-text">
+                Loreum ipsum
+            </span>
+
+            <span class="content__article-text"> 
+                Loreum ipsum
+            </span>
+            <button class="content__article-btn btn"></button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__info">
+            <span class="footer__info-copy">
+                Copyright
+            </span>
+            <span class="footer__info-address">
+                Adres
+            </span>
+        </div>
+    </footer>
 </body>
 </html>
